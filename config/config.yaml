@@ -1,0 +1,10 @@
+server:
+  listen_addr: ":8080"
+  webhook_path: "/webhook"
+
+synology_chat:
+  enabled: true
+  webhook_url: "https://chat.example.com/webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=YOUR_TOKEN"
+  insecure_skip_verify: false
+
+debug: false
